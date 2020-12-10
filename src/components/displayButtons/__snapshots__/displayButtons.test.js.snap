@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing: Enzyme 1`] = `
+<DisplayButtons
+  applyValue={[MockFunction]}
+  buttons={
+    Array [
+      10,
+      20,
+    ]
+  }
+  dropdownItems={
+    Array [
+      0,
+      1,
+    ]
+  }
+  selectItem={[MockFunction]}
+>
+  <div>
+    <ButtonGroup
+      className="mb-2"
+      role="group"
+      toggle={false}
+      vertical={false}
+    >
+      <div
+        className="mb-2 btn-group"
+        role="group"
+      >
+        <DropdownButton
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": Object {
+                "role": "group",
+                "toggle": false,
+                "vertical": false,
+              },
+              "render": [Function],
+            }
+          }
+          id="bg-nested-dropdown"
+          onSelect={[Function]}
+          title="Progress bar 1"
+        >
+          <Dropdown
+            as={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": Object {
+                  "role": "group",
+                  "toggle": false,
+                  "vertical": false,
+                },
+                "render": [Function],
+              }
+            }
+            navbar={false}
+            onSelect={[Function]}
+          >
+            <ReactOverlaysDropdown
+              itemSelector=".dropdown-item:not(.disabled):not(:disabled)"
+              onToggle={[Function]}
+            >
+              <ButtonGroup
+                className="dropdown"
+                onKeyDown={[Function]}
+                role="group"
+                toggle={false}
+                vertical={false}
+              >
+                <div
+                  className="dropdown btn-group"
+                  onKeyDown={[Function]}
+                  role="group"
+                >
+                  <DropdownToggle
+                    id="bg-nested-dropdown"
+                  >
+                    <Button
+                      active={false}
+                      aria-expanded={false}
+                      aria-haspopup={true}
+                      className="dropdown-toggle"
+                      disabled={false}
+                      id="bg-nested-dropdown"
+                      onClick={[Function]}
+                      variant="primary"
+                    >
+                      <button
+                        aria-expanded={false}
+                        aria-haspopup={true}
+                        className="dropdown-toggle btn btn-primary"
+                        disabled={false}
+                        id="bg-nested-dropdown"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        Progress bar 1
+                      </button>
+                    </Button>
+                  </DropdownToggle>
+                  <DropdownMenu
+                    align="left"
+                    alignRight={false}
+                    flip={true}
+                  />
+                </div>
+              </ButtonGroup>
+            </ReactOverlaysDropdown>
+          </Dropdown>
+        </DropdownButton>
+        <Button
+          active={false}
+          disabled={false}
+          key="0"
+          onClick={[Function]}
+          variant="primary"
+        >
+          <button
+            className="btn btn-primary"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            10
+          </button>
+        </Button>
+        <Button
+          active={false}
+          disabled={false}
+          key="1"
+          onClick={[Function]}
+          variant="primary"
+        >
+          <button
+            className="btn btn-primary"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            20
+          </button>
+        </Button>
+      </div>
+    </ButtonGroup>
+  </div>
+</DisplayButtons>
+`;

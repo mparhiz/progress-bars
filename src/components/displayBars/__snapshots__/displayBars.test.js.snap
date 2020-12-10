@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing: Enzyme 1`] = `
+<DisplayBars>
+  <div
+    className="bars-container"
+  >
+    <p>
+      Loading...
+    </p>
+  </div>
+</DisplayBars>
+`;

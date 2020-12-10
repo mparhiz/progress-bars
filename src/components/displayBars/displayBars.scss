@@ -1,0 +1,50 @@
+.bars-container {
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    margin-top: 100px;
+
+    .progress-bars {
+        width: 100%;
+
+        .bar {
+            display: flex;
+            text-align: center;
+            
+            .progress {
+                height: 30px;
+                margin: 10px 0;
+                width: 100%;
+                vertical-align: middle;
+            }
+            
+            label {
+                height: 30px;
+                margin: 10px 5px 10px 0;
+                vertical-align: middle;
+            }
+        }
+    }
+}
+
+.labelStyle {
+    color: red;
+    font-size: 20px;
+}
+
+.bg-red {
+    :first-child {
+        :first-child {
+            background-color: red !important;
+            color: rgb(238, 47, 255) !important;
+        }
+    }
+}
+.bg-green {
+    :first-child {
+        :first-child {
+            background-color: green !important;
+            color: greenyellow !important;
+        }
+    }
+}
