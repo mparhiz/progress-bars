@@ -1,4 +1,4 @@
-### Progress Bars Demo
+# Progress Bars Demo
 
 ## Available Scripts
 
